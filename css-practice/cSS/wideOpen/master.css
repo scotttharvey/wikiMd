@@ -1,0 +1,270 @@
+/*@import url(https;//font.googleapis.com/css?family=Lato:400,700,900italic);
+*/
+html, body {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+.main-container{
+  width: 100%;
+  height: 100vh;
+}
+.top-home-main{
+  background-image: url('./wideopentechimages/background.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+.top-home-main header{
+  width: 100%;
+  height: 75px;
+  position: relative;
+
+}
+
+.top-mid-text {
+  clear: both;
+  text-align: center;
+}
+.hamBar{
+  float: right;
+  width: 50px;
+  height: 40px;
+  margin: 30px 15px;
+}
+.woLogo{
+  float: left;
+  width: 150px;
+  height: 30px;
+  margin: 30px 25px;
+
+}
+.digital{
+  font-size: 35px;
+  color: white;
+  width: 100%;
+  /*height: 50px;*/
+    text-align: center;
+
+
+margin: 0 auto;
+}
+/*.digital div {
+  height: 25px;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: monospace;
+background-color: blue;
+
+}*/
+.wrkshp{
+width: 100%;
+height: 65px;
+margin: 0 auto;
+}
+.wrkshp p{
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  padding-top: 10px;
+
+}
+.ideas-text{
+  text-align: center;
+}
+.build-text{
+  width: 100%
+  height: 0px
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  margin: 15px;
+
+}
+
+
+.learn{
+  height: 60px;
+  width: 80vw;
+  border-radius: 30px;
+  margin: 40px auto;
+  border: solid #b5d236;
+  /*text-align: center;
+  color: #b6d236;
+  font-size: 25px;
+  */
+}
+.learn p{
+  text-align: center;
+  color: #b6d236;
+  font-size: 25px;
+  margin: 15px;
+  font-family: fantasy;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+/*@media query {*/
+/*display: flex;
+justify-content: space-between, space-around
+align-items: center;*/
+/*flex-wrap: wrap;*/
+
+
+
+
+.hamburger{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+.part-two-text{
+  width: 100%;
+  height: 900px;
+  background-color: #f0f0f0;
+}
+.part-two-text p{
+  text-align: center;
+  font-size: 50px;
+  color: #4B757F;
+  padding: 40px 10px;
+}
+.tool1{
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  margin: 0 auto;
+}
+.page-two{
+  width: 100%;
+  height: 1530px;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  flex-direction: column;
+
+}
+.tool2{
+  width: 120px;
+  height: 150px;
+  margin-top: 60px;
+
+}
+.text-b p{
+  width: 100%;
+  height: 30px;
+  font-size: 20px;
+  color: silver;
+  text-align: center;
+  margin: 25px auto;
+}
+.learn-serv{
+  width: 30%;
+  height: 30px;
+  font-size: 18px;
+  color: #b5d236;
+  text-align: center;
+  margin: 25px auto;
+}
+.tool3{
+  margin-top: 130px;
+}
+.expert-text{
+  width: 70%;
+  height: 50px;
+  font-size: 19px;
+  color: silver;
+  text-align: center;
+  margin: 35px auto;
+}
+.team{
+  color:limegreen;
+}
+
+.here-how{
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  color: blue;
+  font-size: 45px;
+
+
+}
+
+.learn-comp{
+  width: 30%;
+  height: 30px;
+  font-size: 18px;
+  color: #b5d236;
+  text-align: center;
+  margin: 25px auto;
+}
+.works{
+  font: bold;
+  color: #b6d236;
+}
+
+.tool4{
+  margin-top: 140px;
+}
+.life-text{
+  width: 70%;
+  height: 50px;
+  font-size: 21px;
+  color: silver;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.work-done{
+  width: 60%;
+  height: 30px;
+  font-size: 18px;
+  color: #b5d236;
+  text-align: center;
+  margin: 25px auto;
+}
+
+.page-3{
+  width: 100%;
+  height: 1530px;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f0f0f0;
+}
+
+
+
+
+
+
+
+@media (min-width: 700px) {
+
+  .learn{
+    display: none;
+  }
+}
